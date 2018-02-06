@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.branding{
+    float: left;
+    padding: 30px;
+    font-family: serif;
+}
+
+.bars{
+    float: right;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+@font-face {
+    font-family: 'Vine';
+    src: url('Vine.ttf') format('truetype');
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Vine';
+}
+
+nav ul li{
+    float: right;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 1px;
+    padding-right: 20px;
+}
+
+body{
+    font-family: sans-serif;
+    height: auto;
+    overflow: hidden;
+}
+
+body {
+    background-color: #00bf90;
+}
+
+@media screen and (max-width: 768px){
+    .logo-section{
+        float: none;
+    }
+    nav ul{
+        background: #ffffff;
+        max-height: 0;
+        width: 100%;
+    }
+    nav ul.show{
+        max-height: 20em;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+    .hb-button{
+        display: inline;
+    }
+}
