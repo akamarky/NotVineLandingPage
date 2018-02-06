@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "NotVine";
+  src: url('./fonts/notvine.ttf') format('truetype');
+}
+
+
+
+h1.notvine {
+  font-family: "NotVine";
+  font-size: 500%;
+  color: white;
+}
+
+p.notvine {
+  font-family: "NotVine";
+  font-size: 200%;
+  color: white;
+}
+
+.head{
+  background-color: #00bf8f;
+}
+
+.top{
+    padding-top: 25px !important;
+}
+
+.vinebutton{
+  font-family: "NotVine";
+}
+
+.hidden {
+  display: none;
+}
