@@ -1,12 +1,15 @@
 nav{
   background-color: #00bf8f;
   font-family: 'Roboto';
+
 }
 
+
 header.masthead {
-  padding-top: 10rem;
+  height: 100vh;
+  padding-top: 15rem;
   padding-bottom: calc(10rem - 56px);
-  background-color: #00bf8f;
+  background-color: #00bf90;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,5 +18,52 @@ header.masthead {
 }
 
 strong{
-  font-size:150px;
+  font-size:200px;
+}
+
+
+#goals{
+  padding-bottom: 5rem;
+  font-size: 150%;
+  line-height:50px;
+  color:black;
+}
+
+.section-heading{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+h2{
+  font-size:75px;
+}
+
+.hero-image {
+    /* The image used */
+    background-image: url("assets/sanfran.jpg");
+
+    /* Set a specific height */
+    height: 70%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+  padding-top: 2rem;
+  text-align: left;
+  color: white;
+  font-size: 50px;
+}
+
+.profile{
+  height:250px;
+  width:250px;
+  border-radius: 50%;
+}
+
+#disclaimer{
+  font-size: 6;
 }
