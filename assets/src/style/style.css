@@ -18,7 +18,7 @@ p.notvine {
 }
 
 .head{
-  background-color: #00bf8f;
+  background-color: #00bf90;
 }
 
 .top{
@@ -31,4 +31,12 @@ p.notvine {
 
 .hidden {
   display: none;
+}
+
+.header{
+   height: 85vh;
+}
+
+.spacer{
+  height: 25vh;
 }
